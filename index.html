@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+<title>Balloon Clicker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<canvas id="fx"></canvas>
+
+<h1>Balloon Clicker</h1>
+
+<div id="info">
+  Level: <b id="level">1</b> |
+  Time: <b id="timer">30</b>s |
+  Clicks: <b id="clicks">0</b> / <b id="goal">30</b>
+</div>
+
+<div id="balloon"></div>
+
+<button id="clickBtn">CLICK</button><br>
+<button id="repeatBtn">Repeat level</button>
+<button id="restartBtn">Start over</button>
+
+<div id="rules">
+  Click as fast as you can to inflate the balloon.<br>
+  Reach the goal before time runs out to advance to the next level.
+</div>
+
+<h2>🏆 High Scores</h2>
+<table id="scores">
+  <tr><th>#</th><th>Level</th><th>Clicks</th></tr>
+</table>
+
+<!-- Sounds -->
+<audio id="sndClick" src="click.mp3"></audio>
+<audio id="sndPop" src="pop.mp3"></audio>
+<audio id="sndFail" src="fail.mp3"></audio>
+<audio id="sndRecord" src="record.mp3"></audio>
+
+<script src="main.js"></script>
+
+</body>
+</html>
