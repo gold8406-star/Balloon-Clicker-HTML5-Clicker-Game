@@ -1,8 +1,3 @@
-2. Place them in a single folder.
-3. Open `index.html` in any modern browser.
-
----
-
 ## 🔹 How to Play
 
 - Press **CLICK** to inflate the balloon.
